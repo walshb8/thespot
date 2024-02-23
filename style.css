@@ -1,1 +1,9 @@
 /* your styles will go here!! */
+body{
+    font-family: "Kanit", Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 600;
+}
