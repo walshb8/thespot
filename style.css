@@ -3,7 +3,12 @@ body{
     font-family: "Kanit", Verdana, Geneva, Tahoma, sans-serif; 
 }
 
+.menu {
+    display: hidden;
+}
+
 h1{
     font-size: 64px;
     font-weight: 600;
+    background-color: white;
 }
