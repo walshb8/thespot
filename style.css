@@ -1,14 +1,63 @@
-/* your styles will go here!! */
+
 body{
-    font-family: "Kanit", Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: "Kanit", Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%; 
 }
 
-.menu {
-    display: hidden;
+.logo1{
+    margin: 4px 6px;
+    padding: 10px 259px 10px 10px;
 }
+
+
 
 h1{
-    font-size: 64px;
+    font-size: 40px;
     font-weight: 600;
-    background-color: white;
+    text-transform: uppercase;
+    object-position: center;
+}
+
+.spotimage {
+    position: absolute;
+    z-index: 0;
+}
+
+.behindh1 {
+    width:211px;
+    height:87px;
+    background: white;
+    object-position: center;
+}
+
+.open {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.list {
+    font-size: 24px;
+    font-weight: 500;
+    background-color: black;
+}
+
+.orange {
+    color: #F89A42;
+}
+
+.yellow {
+    color: #E7E614;
+}
+
+.pink {
+    color: #D43494;
+}
+
+.map {
+    border-color: black;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    object-position: center;
 }
