@@ -1,35 +1,46 @@
-
-body{
+body {
     font-family: "Kanit", Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0%; 
+    margin: 0%;
 }
 
-.logo1{
+.logo1 {
     margin: 4px 6px;
-    padding: 10px 259px 10px 10px;
+    padding: 10px 144px 10px 3px;
+    min-width: 174px;
+    
 }
 
-.spotimage {
-    position: absolute;
-    justify-content: center;
-  }
+.menu {
+    position: relative;
+    float: right;
+    padding: 18px;
+}
 
-h1{
+.spot-bg {
+    background: url('imageofspot.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 183px;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
     font-size: 40px;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     background-color: white;
     padding: 14px 12px;
+    max-height: 147px;
     z-index: 1;
 }
 
 
-.behindh1 {
-    width:211px;
-    height:87px;
-    background: white;
-}
+
 
 .open {
     font-size: 20px;
@@ -40,32 +51,34 @@ h1{
 .list {
     font-size: 24px;
     font-weight: 500;
-    background-color: black;
-}
-
-.orange {
-    color: #F89A42;
-    padding-top: 50px;
-}
-
-.yellow {
-    color: #E7E614;
-}
-
-.pink {
-    color: #D43494;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 .map {
     border-color: black;
-    border-top-width: 4px;
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    margin: 0 50%;
+    border-width: 4px;
+}
+
+.spot-bgbottom {
+    background: url('imageofspot.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 50px;
+    height: 33vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 footer {
-    display: flex;
+
+    margin: 0;
+}
+
+.footertext {
+    color: white;
+    font-size: 18px;
 }
