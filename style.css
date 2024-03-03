@@ -14,6 +14,7 @@ body {
     position: relative;
     float: right;
     padding: 18px;
+    justify-content: flex-end;
 }
 
 .spot-bg {
@@ -39,46 +40,80 @@ h1 {
     z-index: 1;
 }
 
+a {
+    text-decoration: none;
+    text-align: center;
+}
 
+a:hover {
+    text-decoration: underline;
+}
 
 
 .open {
+    padding-right: 68px;
     font-size: 20px;
     font-weight: 300;
     margin: 0;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .list {
+    text-align: center;
     font-size: 24px;
     font-weight: 500;
-    text-decoration: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
+.colorbar{
+    width: 294px; 
+    height: 5px;
+    background: rgb(212,52,144);
+    background: linear-gradient(90deg, rgba(212,52,144,1) 0%, rgba(231,230,20,1) 50%, rgba(248,154,66,1) 100%);
+    margin: auto;
+}
 .map {
     border-color: black;
     border-width: 4px;
+    display: flex;
+    justify-content: center;
+    flex: 1.5;
 }
 
 .spot-bgbottom {
     background: url('imageofspot.jpg');
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
     width: 100%;
     min-height: 50px;
-    height: 33vh;
+    height: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 footer {
-
     margin: 0;
+    right: 100%;
+    left: 100%;
 }
+
+.footerlogo {
+    padding: 0px 13px 0px 0px;
+    position: relative;
+    background-color: black
+} 
 
 .footertext {
     color: white;
     font-size: 18px;
+    font-weight: 300;
+    margin:0%;
+    background-color: black;
+    padding: 5%;
+    text-align: center;
 }
