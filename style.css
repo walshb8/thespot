@@ -66,7 +66,11 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+}
+
+ul {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
 }
 
 .colorbar{
